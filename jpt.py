@@ -5,13 +5,16 @@ print('Hello World!')
 print('This is in second branch')
 
 """
+https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners#:~:text=%20An%20Intro%20to%20Git%20and%20GitHub%20for,environment%0AAdd%20a%20file%20to%20the%20staging...%20More%20
+
 GitHub commands:
 
 1. $ mkdir Trial
 2. $ cd Trial
 3. git init               # to initialize git on Trial directory.
 4. git status             # check status of git. To see anything has been modified or not.
-5. start adding files     # emacs -nw jpt.py
+Create a file: emacs -nw jpt.py
+5. git add jpt.py         # to set up a stage so that you can commit.
 6. git commit -m "trial commit"
 7. git checkout -b first_branch
 8. git branch             # shows you that you are active on first_branch, not anymore in master.
@@ -30,8 +33,9 @@ GitHub commands:
 		Branch 'first_branch' set up to track remote branch 'first_branch' from 'origin'.
 Just for fun create a second branch of this project.
 13. git checkout -b second_branch
-14. git push -u origin second_branch
-
+15. git add jpt.py       # this is required to set up a stage so that you can commit.
+16. git commit -m "Info added to the script."
+17. git push -u origin second_branch     # send it to the repository so that other people online can see it.
 
 
 """
