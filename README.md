@@ -1,4 +1,4 @@
-https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners#:~:text=%20An%20Intro%20to%20Git%20and%20GitHub%20for,environment%0AAdd%20a%20file%20to%20the%20staging...%20More%20
+#https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners#:~:text=%20An%20Intro%20to%20Git%20and%20GitHub%20for,environment%0AAdd%20a%20file%20to%20the%20staging...%20More%20
 GitHub commands:
 1. $ mkdir Trial
 2. $ cd Trial
