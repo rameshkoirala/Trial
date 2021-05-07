@@ -11,7 +11,7 @@ Create a file: emacs -nw jpt.py
 7. git checkout -b first_branch
 8. git branch             # shows you that you are active on first_branch, not anymore in master.
 9. Create a repository in GitHub website. Example repo for this excersise is called Trial. 
-10. git remote add origin https://github.com/rameshkoirala/Trial.git  # Connect his project to the Trial repository.
+10. git remote add origin https://github.com/rameshkoirala/Trial.git  # Connect this project to the Trial repository.
 11. git branch -M first_branch
 12. git push -u origin first_branch     # Finally pushed first_brach of this project to Trial repository.
 		Username for 'https://github.com': rameshkoirala
